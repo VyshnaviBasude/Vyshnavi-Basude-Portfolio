@@ -90,7 +90,7 @@ const Hero = () => {
                 View Projects
               </a>
               <a
-    href="https://drive.google.com/file/d/1X-OYcOw_suhzjxOhxSub1Z5I2z4A7J47/preview"
+    href="https://drive.google.com/file/d/1PKQD8kabtqYiMyD6TYwc51iuctYHNwHQ/view?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center px-6 py-3 border-2 border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50 transition-all hover:shadow-lg hover:-translate-y-0.5 ml-4"

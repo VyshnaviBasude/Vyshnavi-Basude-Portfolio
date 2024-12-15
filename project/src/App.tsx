@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Resume from './components/Resume';
+import Certifications from './components/Certifications';
 function App() {
   return (
     <div className="min-h-screen bg-gradient-animate">
@@ -27,17 +28,12 @@ function App() {
             <Skills />
             <Experience />
             <Projects />
+            <Certifications/>
             <Contact />
           </div>
         </main>
         <Footer />
       </div>
-      <Router>
-      <Routes>
-        <Route path="/" element={<Hero />} /> {/* Main Page */}
-        <Route path="/resume" element={<Resume />} /> {/* Resume Page */}
-      </Routes>
-    </Router>
     </div>
   );
 }
